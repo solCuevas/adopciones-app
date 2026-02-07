@@ -1,0 +1,20 @@
+paths:
+  /api/users:
+    get:
+      summary: Obtener todos los usuarios
+      responses:
+        200:
+          description: Lista de usuarios
+
+  /api/users/{uid}:
+    get:
+      summary: Obtener un usuario por ID
+      parameters:
+        - in: path
+          name: uid
+          required: true
+      responses:
+        200:
+          description: Usuario encontrado
+        404:
+          description: Usuario no encontrado

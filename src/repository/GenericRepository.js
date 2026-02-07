@@ -24,3 +24,6 @@ export default class GenericRepository {
         return this.dao.delete(id);
     }
 }
+createMany = (docs) => {
+    return this.dao.saveMany(docs);
+}
