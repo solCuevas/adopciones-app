@@ -54,5 +54,4 @@ docker push sooooolcuevas/adopciones-app
 .Eliminar contenedor:docker rm <container_id>
 .Eliminar imagen:docker rmi <image_id>
 Docker no se pudo ejecutar en mi PC por problemas de WSL en Windows, pero el Dockerfile y los comandos están documentados correctamente.
-```bash
-npm install
+
