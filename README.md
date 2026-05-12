@@ -41,14 +41,7 @@ Adoptions
 - **POST** `/api/mocks/generateData` → Genera usuarios y mascotas según parámetros  
 
 ---
-Aunque Docker no se pudo ejecutar en mi PC, estos son los pasos que se usarían para dockerizar el proyecto:
--Construir la imagen:
-docker build -t adopciones-app .
--Etiquetar la imagen para DockerHub:
-docker tag adopciones-app sooooolcuevas/adopciones-app
--Subir la imagen a DockerHub:
-docker push sooooolcuevas/adopciones-app
--Comandos útiles de Docker
+
 .Listar contenedores en ejecución:docker ps
 .Listar todas las imágenes locales:docker images
 .Eliminar contenedor:docker rm <container_id>
